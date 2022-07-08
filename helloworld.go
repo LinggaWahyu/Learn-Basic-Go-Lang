@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	i := []byte("Hello Dunia!")
+	fmt.Println(strings(i))
 }
